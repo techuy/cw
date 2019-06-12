@@ -1,0 +1,47 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+.main
+{
+
+}
+.main
+{
+    width: 100%
+}
+.main li
+{
+    display: inline-block;
+    float: left;
+    list-style-type:none;
+    width: calc(25%) ;
+    background-color: red;
+    font-size: 50px;
+    text-align: center;
+}
+a
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.main li:hover
+{
+    background-color:white;
+}
+.main li ul li
+{
+    width: 100%;
+    display:none ;
+    background-color: brown;
+}
+.main li:hover ul li
+{
+    display: block;
+}
+.main li ul :hover
+{
+    background-color: blueviolet;
+}
